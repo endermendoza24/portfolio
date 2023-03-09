@@ -3,9 +3,10 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export const WhatsappButton = ({ phoneNumber }) => {
 	const handleWhatsAppClick = () => {
-		// Abre una nueva ventana de chat directo en WhatsApp
-		window.open(`https://wa.me/${phoneNumber}`);
-	};
+	const message = "Me interesa tu trabajo, contáctemonos..."; // default message
+	window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`);
+};
+
 
 	return (
 		<button onClick={handleWhatsAppClick} className="whatsapp-button">
