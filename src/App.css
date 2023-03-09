@@ -277,7 +277,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.banner .enlace{
+  text-decoration: none;
+  color: #fff;
+}
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -751,10 +754,67 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+}
+.habilidades-hijos:hover{
+  transform: scale(1.01);
 }
 .habilidades-iconos{
   width: 30%;
 }
 .habilidades-texto{
   padding-top:10px;
+}
+/*Education*/
+
+
+.education-box {
+  background: #000;
+  border-radius: 30px;
+  border: 2px solid #000;
+  text-align: center;
+  padding: 60px 50px;
+  margin: 10px 0;
+  margin: 15px 0;
+
+}
+.education-elements{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.education-image{
+  margin: 15px 0;
+  width: 30%;
+}
+.education-image h5, .education-image h4{
+  padding: 10px 0;
+  font-weight: 700;
+}
+.courses-box{
+  background: rgb(21,18,62);
+  background: linear-gradient(90deg, rgba(21,18,62,1) 0%, rgba(0,0,0,1) 50%, rgba(57,59,57,1) 100%);
+}
+.courses{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  color: #000;
+}
+.courses-hijos{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  /*background-color: #fff;*/
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 575px) {
+  .habilidades{
+    grid-template-columns: repeat(1,1fr);
+  }
 }

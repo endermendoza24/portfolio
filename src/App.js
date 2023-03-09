@@ -7,6 +7,8 @@ import {MySkills} from './components/MySkills';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import {WhatsappButton} from "./components/WhatsappButton";
+import {Education} from "./components/Education";
+import {Courses} from "./components/Courses";
 import './App.css';
 import { Footer } from './components/Footer';
 
@@ -17,9 +19,11 @@ function App() {
       <Banner />
       {/*<Skills />*/}
         <MySkills/>
+        <Education/>
+        <Courses/>
       <Projects />
       <Contact />
-        <WhatsappButton phoneNumber={'+505 82072291'}/>
+        <WhatsappButton phoneNumber={'82072291'}/>
       <Footer />
     </div>
   );
