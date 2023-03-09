@@ -5,6 +5,7 @@ import { Banner } from './components/Banner';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
+import {WhatsappButton} from "./components/WhatsappButton";
 import './App.css';
 import { Footer } from './components/Footer';
 
@@ -16,6 +17,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+        <WhatsappButton phoneNumber={'82072291'}/>
       <Footer />
     </div>
   );
