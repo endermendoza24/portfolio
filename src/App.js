@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from './components/NavBar';
 import { Banner } from './components/Banner';
 import { Skills } from './components/Skills';
+import {MySkills} from './components/MySkills';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import {WhatsappButton} from "./components/WhatsappButton";
@@ -14,10 +15,11 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <Skills />
+      {/*<Skills />*/}
+        <MySkills/>
       <Projects />
       <Contact />
-        <WhatsappButton phoneNumber={'82072291'}/>
+        <WhatsappButton phoneNumber={'+505 82072291'}/>
       <Footer />
     </div>
   );

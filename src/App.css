@@ -734,3 +734,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   font-size: 24px;
 }
+/*habilidades*/
+.habilidades{
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+}
+.habilidades-hijos{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  /*background-color: #fff;*/
+  background: #151515;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.habilidades-iconos{
+  width: 30%;
+}
+.habilidades-texto{
+  padding-top:10px;
+}
