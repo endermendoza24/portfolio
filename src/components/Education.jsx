@@ -15,7 +15,15 @@ export const Education = () => {
 								<h4>Information systems engineer</h4>
 							</div>
 							<div className='education-text'>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eos magnam quidem reiciendis, veritatis vitae.</p>
+								<div className={'lista'}>
+									<ul>
+										<li>I studied project planning, coordination and ethics</li>
+										<li>I got acquainted with technical support.</li>
+										<li>I studied technologies like .Net, SQL server,
+											Javascript, development. web, PowerBi, software
+											preventive maintenance and repair.</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>

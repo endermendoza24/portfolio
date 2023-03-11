@@ -5,6 +5,8 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import { FaDownload } from 'react-icons/fa';
 import TrackVisibility from 'react-on-screen';
+import profilePic from '../assets/img/profile-pic.png';
+import developer from '../assets/img/developer.svg';
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -62,18 +64,24 @@ export const Banner = () => {
                                       </span>
                                     </a>
                                     <h1>{`Hi! I'm Endersson`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer JR", "Frontend developer JR", "Technical support" ]'><span className="wrap">{text}</span></span></h1>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p>Recently graduated Systems
+                                        Engineer. Passionate about
+                                        technology, I am seeking to start
+                                        my career by contributing solid
+                                        academic knowledge in
+                                        technology. My ability to generate
+                                        ideas and my ease of working in a
+                                        team are my main tools for
+                                        working and growing as a
+                                        professional.</p>
                                     <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                                 </div>}
                         </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                                    <img src={headerImg} alt="Header Img" />
-                                </div>}
-                        </TrackVisibility>
+                        <div className={"animate__animated animate__zoomIn"}>
+                            <img src={developer} alt="Header Img" />
+                        </div>}
                     </Col>
                 </Row>
             </Container>
