@@ -3,6 +3,9 @@ import '../App.css';
 import softwareDevelopment from '../assets/img/software-development.png';
 import technicalSupport from '../assets/img/technical-support.png';
 import businessIntelligence from '../assets/img/business-intelligence.png';
+import wordpress from '../assets/img/wordpress.svg';
+import dotnet from '../assets/img/dot-net-core-7.svg';
+import blazor from '../assets/img/blazor.svg';
 
 export const  MySkills = () => {
   return (
@@ -21,25 +24,41 @@ export const  MySkills = () => {
 						<div className='habilidades'>
 							<div className='habilidades-hijos'>
 								<div className='habilidades-iconos'>
-									<img src={softwareDevelopment} alt='Software development'/>
+									<img src={softwareDevelopment} alt='Web development'/>
 									<h5>Web development</h5>
 								</div>
 								<div className='habilidades-texto'>
 									As a frontend web developer, I have skills in designing and developing attractive and
-									functional user interfaces using HTML, CSS, and JavaScript. I have experience using React
-									and Blazor to create dynamic and interactive web applications, and I am committed to continuous
-									learning to stay up-to-date on the latest technologies and tackle new challenges in the future.
+									functional user interfaces using HTML, CSS, and JavaScript.
 								</div>
 							</div>
 							<div className='habilidades-hijos'>
 								<div className='habilidades-iconos'>
-									<img src={technicalSupport} alt='Technical support'/>
-									<h5>Technical support</h5>
+									<img src={dotnet} alt='Dotnet experiencie'/>
+									<h5>.Net Core experiencie</h5>
 								</div>
 								<div className='habilidades-texto'>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ullam.
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ullam.
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ullam.
+									As a university student, I have some experience with .NET Core development and am eager to learn and improve.
+								</div>
+							</div>
+							<div className='habilidades-hijos'>
+								<div className='habilidades-iconos'>
+									<img src={wordpress} alt='Wordpress experiencie'/>
+									<h5>Wordpress experiencie</h5>
+								</div>
+								<div className='habilidades-texto'>
+									Although my experience with WordPress is limited, I am eager to learn and improve.
+									I have dabbled with the platform and have a basic understanding of its functionality and customization options.
+								</div>
+							</div>
+							<div className='habilidades-hijos'>
+								<div className='habilidades-iconos'>
+									<img src={blazor} alt="Blazor"/>
+									<h5>Blazor</h5>
+								</div>
+								<div className='habilidades-texto'>
+									I have beginner-level experience with Blazor, but I am eager to learn and showcase
+									my skills to demonstrate my ability and grow professionally
 								</div>
 							</div>
 							<div className='habilidades-hijos'>
@@ -48,9 +67,18 @@ export const  MySkills = () => {
 									<h5>Business intelligence</h5>
 								</div>
 								<div className='habilidades-texto'>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ullam.
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ullam.
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ullam.
+									I have some exposure to Power BI, although I consider myself a beginner. However, I am highly motivated to enhance my
+									skills and knowledge of this technology in order to demonstrate my ability and progress in my career
+								</div>
+							</div>
+							<div className='habilidades-hijos'>
+								<div className='habilidades-iconos'>
+									<img src={technicalSupport} alt='Technical support'/>
+									<h5>Technical support</h5>
+								</div>
+								<div className='habilidades-texto'>
+									I have experience in software technical support, repairing software errors,
+									providing customer service, and configuring Hostinger servers.
 								</div>
 							</div>
 

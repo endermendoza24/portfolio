@@ -17,12 +17,14 @@ export const Projects = () => {
             description: "Management system for clothe store",
             tecnologia : "Net Core - Blazor webAssembly - SQL Server",
             imgUrl: sistemaCaprichos,
+            link : "https://sistemaventascaprichosserver20230112224617.azurewebsites.net/"
         },
         {
             title: "Management system",
             description: "Management system for Talk language academy",
             tecnologia: "PHP - CodeIgniter - MySQL",
             imgUrl: sistemaTalk,
+            link:"https://www.management.idiomastalk.com/"
         },
         {
             title: "Business Startup",
@@ -55,7 +57,7 @@ export const Projects = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <h2>Projects</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p>These are some of the most relevant projects I have worked on</p>
                                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                         {/*<Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">*/}
                                         {/*    <Nav.Item>*/}

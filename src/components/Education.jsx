@@ -16,13 +16,7 @@ export const Education = () => {
 							</div>
 							<div className='education-text'>
 								<div className={'lista'}>
-									<ul>
-										<li>I studied project planning, coordination and ethics</li>
-										<li>I got acquainted with technical support.</li>
-										<li>I studied technologies like .Net, SQL server,
-											Javascript, development. web, PowerBi, software
-											preventive maintenance and repair.</li>
-									</ul>
+									2018 - 2023
 								</div>
 							</div>
 						</div>

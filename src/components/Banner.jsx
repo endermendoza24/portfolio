@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+// import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import { FaDownload } from 'react-icons/fa';
 import TrackVisibility from 'react-on-screen';
-import profilePic from '../assets/img/profile-pic.png';
+// import profilePic from '../assets/img/profile-pic.png';
 import developer from '../assets/img/developer.svg';
+
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -58,7 +59,7 @@ export const Banner = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <a className='enlace' href='https://drive.google.com/file/d/1m5vSiJtf7I2rOJUXzga2Evp3Kr0f8VNi/view?usp=share_link' download>
+                                    <a className='enlace' target='_blank' href='https://drive.google.com/file/d/1m5vSiJtf7I2rOJUXzga2Evp3Kr0f8VNi/view?usp=share_link' download>
                                       <span className="tagline">
                                         <FaDownload /> Download my CV
                                       </span>
@@ -74,7 +75,8 @@ export const Banner = () => {
                                         team are my main tools for
                                         working and growing as a
                                         professional.</p>
-                                    <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                                    <button onClick={() => console.log('connect')}><a style={{color:"#fff"}} href="#connect">Let's connect</a> <ArrowRightCircle size={25} /></button>
+
                                 </div>}
                         </TrackVisibility>
                     </Col>

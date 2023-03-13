@@ -12,6 +12,7 @@ import {Courses} from "./components/Courses";
 import './App.css';
 import { Footer } from './components/Footer';
 
+
 function App() {
   return (
     <div className="App">
@@ -24,7 +25,7 @@ function App() {
       <Projects />
       <Contact />
         <WhatsappButton phoneNumber={'82072291'}/>
-      <Footer />
+        <Footer/>
     </div>
   );
 }

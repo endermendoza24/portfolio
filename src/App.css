@@ -1,4 +1,10 @@
 /************ Custom Font ************/
+:root{
+  --barraNavegacion: #121212;
+  --azulDeFondo: #081F37;
+  --azulClaro:#0E2A47;
+}
+
 @font-face {
   font-family: Centra;
   src: url('./assets/font/CentraNo2-Bold.ttf');
@@ -33,7 +39,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  /*background-color: #121212 !important;*/
+  background:#081F37 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -138,6 +145,10 @@ span.navbar-text {
   margin-left: 14px;
 }
 
+#footer-icons{
+  margin-top: 10px;
+}
+
 .social-icon a {
   width: 42px;
   height: 42px;
@@ -149,6 +160,7 @@ span.navbar-text {
   justify-content: center;
   line-height: 1;
   border: 1px solid rgba(255, 255, 255, 0.5);
+
 }
 
 .social-icon a::before {
@@ -272,7 +284,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  /*background-image: url('./assets/img/banner-bg.png');*/
+  background-image: url("./assets/img/react-light.svg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -287,7 +300,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  /*background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);*/
+  background-color: #121212;
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -361,7 +375,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-bx {
-  background: #151515;
+  /*background: #151515;*/
+  background:#081F37;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -404,7 +419,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  /*background-color: black;*/
+  background:#081F37;
 }
 
 .project h2 {
@@ -487,7 +503,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 20px;
   overflow: hidden;
   margin-bottom: 24px;
 }
@@ -499,7 +515,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 100%;
   height: 0;
-  transition: 0.4s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .proj-imgbx:hover::before {
@@ -534,6 +550,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+  padding: 10px;
 }
 
 .background-image-right {
@@ -547,7 +564,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /*background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);*/
+  background-image: url("./assets/img/poligono-footer.svg");
   padding: 60px 0 200px 0;
 }
 
@@ -635,7 +653,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  /*background-image: url("./assets/img/poligono-footer.svg");*/
+  background-color: var(--barraNavegacion);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -749,34 +768,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .habilidades-hijos{
   width: 100%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 20px;
   /*background-color: #fff;*/
-  background: #151515;
+  background-color: var(--barraNavegacion);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
 }
-.habilidades-hijos:hover{
-  transform: scale(1.01);
-}
+
 .habilidades-iconos{
   width: 30%;
 }
+.habilidades-iconos h5{
+  padding: 10px;
+  text-align: center;
+}
 .habilidades-texto{
-  padding-top:10px;
+  padding: 15px;
+  text-align: justify;
 }
 /*Education*/
 
 
 .education-box {
-  background: #000;
+  /*background: #000;*/
+  /*background:var(--azulClaro);*/
+  background-image: url("./assets/img/Sprinkle.svg");
   border-radius: 30px;
-  border: 2px solid #000;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 60px 50px;
-  margin: 10px 0;
   margin: 15px 0;
 
 }

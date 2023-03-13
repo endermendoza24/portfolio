@@ -17,13 +17,13 @@ export const Footer = () => {
                         <img src={logo} alt="Logo" />
                     </Col>
                     <Col size={12} sm={6} className="text-center text-sm-end">
-                        <div className="social-icon">
+                        <div className="social-icon" id="footer-icons">
                             <a target='_blank' href="https://www.linkedin.com/in/endersson-alonso-mendoza-mu%C3%B1oz-16909a232/"><img src={navIcon1} alt="Icon" /></a>
                             <a href="https://www.facebook.com/endermendoza2405" target='_blank'><img src={navIcon2} alt="Icon" /></a>
                             <a href="https://www.instagram.com/mendalonso2405/" target='_blank'><img src={navIcon3} alt="Icon" /></a>
                             <a href="https://github.com/endermendoza24" target='_blank'><img src={navIcon4} alt="Github" /></a>
                         </div>
-                        <p>&copy;Copyright {currentYear}. All Rights Reserved</p>
+                        <p>&copy;Copyright {currentYear}. Endersson Mendoza All Rights Reserved</p>
                     </Col>
                 </Row>
             </Container>
