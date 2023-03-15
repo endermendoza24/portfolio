@@ -15,7 +15,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Web Developer JR", "Frontend developer JR", "Systems engineer", "Technical support specialist"];
+    const toRotate = ["Frontend developer JR", "Systems engineer", "Technical support specialist"];
     const period = 2000;
 
     useEffect(() => {
@@ -77,13 +77,14 @@ export const Banner = () => {
                                         professional.</p>
                                     <button onClick={() => console.log('connect')}><a style={{color:"#fff"}} href="#connect">Let's connect</a> <ArrowRightCircle size={25} /></button>
 
-                                </div>}
+                                </div>
+                            }
                         </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <div className={"animate__animated animate__zoomIn"}>
                             <img src={developer} alt="Header Img" />
-                        </div>}
+                        </div>
                     </Col>
                 </Row>
             </Container>

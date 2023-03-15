@@ -11,7 +11,7 @@ import { Education } from "./components/Education";
 import { Courses } from "./components/Courses";
 import './App.css';
 import { Footer } from './components/Footer';
-import ContactForm from './components/ContactForm';
+
 
 
 function App() {
@@ -19,14 +19,13 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      {/*<Skills />*/}
+        {/*<Skills/>*/}
       <MySkills />
       <Education />
       <Courses />
       <Projects />
-      {/* <ContactForm /> */}
       <Contact />
-      <WhatsappButton phoneNumber={'82072291'} />
+      <WhatsappButton phoneNumber={'+50582072291'} />
       <Footer />
     </div>
   );
