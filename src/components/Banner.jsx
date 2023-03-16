@@ -15,7 +15,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Frontend developer JR", "Systems engineer", "Technical support specialist"];
+    const toRotate = ["Desarrollador frontend JR", "Ingeniero en sistemas", "Soporte técnico", "Analista de datos"];
     const period = 2000;
 
     useEffect(() => {
@@ -61,21 +61,19 @@ export const Banner = () => {
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <a className='enlace' target='_blank' href='https://drive.google.com/file/d/1m5vSiJtf7I2rOJUXzga2Evp3Kr0f8VNi/view?usp=share_link' download>
                                       <span className="tagline">
-                                        <FaDownload /> Download my CV
+                                        <FaDownload /> Descargar mi CV
                                       </span>
                                     </a>
-                                    <h1>{`Hi! I'm Endersson`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer JR", "Frontend developer JR", "Technical support" ]'><span className="wrap">{text}</span></span></h1>
-                                    <p>Recently graduated Systems
-                                        Engineer. Passionate about
-                                        technology, I am seeking to start
-                                        my career by contributing solid
-                                        academic knowledge in
-                                        technology. My ability to generate
-                                        ideas and my ease of working in a
-                                        team are my main tools for
-                                        working and growing as a
-                                        professional.</p>
-                                    <button onClick={() => console.log('connect')}><a style={{color:"#fff"}} href="#connect">Let's connect</a> <ArrowRightCircle size={25} /></button>
+                                    <h1>{`Hola, soy Endersson `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer JR", "Frontend developer JR", "Technical support" ]'><span className="wrap">{text}</span></span></h1>
+                                    <p>
+                                        Recientemente graduado de ingeniería en sistemas.
+                                        Apasionado de la tecnología, estoy buscando iniciar
+                                        mi carrera contribuyendo con
+                                        sólidos conocimientos académicos en tecnología.
+                                        Mis principales habilidades es generar nuevas ideas,
+                                        trabajar en equipo, ser proactivo, ser autodidacta.
+                                    </p>
+                                    <button onClick={() => console.log('connect')}><a style={{color:"#fff"}} href="#connect">Contacto<ArrowRightCircle size={25} /></a></button>
 
                                 </div>
                             }

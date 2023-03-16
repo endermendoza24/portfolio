@@ -10,7 +10,7 @@ export const CourseCard = ({ title, description, imgUrl, fecha,link }) => {
 					<h4>{title}</h4>
 					<span>{description}</span>
 					<h5>{fecha}</h5>
-					<a className="btn btn-success" target="_blank" href={link}>Go to&nbsp;<ArrowRightCircle size={25} /></a>
+					<a className="btn btn-success" target="_blank" href={link}>Ir a&nbsp;<ArrowRightCircle size={25} /></a>
 				</div>
 			</div>
 		</Col>

@@ -44,8 +44,9 @@ export const Courses = () =>{
 						<TrackVisibility>
 							{({ isVisible }) =>
 								<div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-									<h2>Courses and certifications</h2>
-									<p>These are some of the courses I have completed on my own through various platforms.</p>
+									<h2>Cursos y certificaciones</h2>
+									<p>Estos son algunos de los cursos que he completado en diversas plataformas.</p>
+
 									<Tab.Container id="projects-tabs" defaultActiveKey="first">
 										<Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
 											<Tab.Pane eventKey="first">

@@ -10,7 +10,7 @@ export const ProjectCard = ({ title, description, imgUrl, tecnologia, link }) =>
                     <h4>{title}</h4>
                     <span>{description}</span>
                     <span>{tecnologia}</span> <br/>
-                    <a className="btn btn-success" target="_blank" href={link}>Go to&nbsp;<ArrowRightCircle size={25} /></a>
+                    <a className="btn btn-success" target="_blank" href={link}>Ir...&nbsp;<ArrowRightCircle size={25} /></a>
                 </div>
 
             </div>

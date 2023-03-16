@@ -13,15 +13,15 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Management system",
-            description: "Management system for clothe store",
-            tecnologia : "Net Core - Blazor webAssembly - SQL Server",
+            title: "Sistema de facturación",
+            description: "Sistema de facturación para una tienda de ropa, el sistema registra ventas, compras, se conecta a PowerBI e imprime factura",
+            tecnologia : ".Net Core - Blazor webAssembly - SQL Server",
             imgUrl: sistemaCaprichos,
             link : "https://sistemaventascaprichosserver20230112224617.azurewebsites.net/"
         },
         {
-            title: "Management system",
-            description: "Management system for Talk language academy",
+            title: "Sistema de administración escolar",
+            description: "Sistema de administración para una academia de inglés",
             tecnologia: "PHP - CodeIgniter - MySQL",
             imgUrl: sistemaTalk,
             link:"https://www.management.idiomastalk.com/"
@@ -56,8 +56,8 @@ export const Projects = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <h2>Projects</h2>
-                                    <p>These are some of the most relevant projects I have worked on</p>
+                                    <h2>Proyectos</h2>
+                                    <p>Estos son algunos de los proyectos más relevantes en los que he trabajado</p>
                                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                         {/*<Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">*/}
                                         {/*    <Nav.Item>*/}

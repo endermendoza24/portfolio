@@ -23,7 +23,7 @@ export const Footer = () => {
                             <a href="https://www.instagram.com/mendalonso2405/" target='_blank'><img src={navIcon3} alt="Icon" /></a>
                             <a href="https://github.com/endermendoza24" target='_blank'><img src={navIcon4} alt="Github" /></a>
                         </div>
-                        <p>&copy;Copyright {currentYear}. Endersson Mendoza All Rights Reserved</p>
+                        <p>&copy;Copyright {currentYear}. Endersson Mendoza Todos los derechos reservados</p>
                     </Col>
                 </Row>
             </Container>

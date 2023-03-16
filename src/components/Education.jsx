@@ -6,13 +6,13 @@ export const Education = () => {
 			<div className='row'>
 				<div className='col-12'>
 					<div className='education-box'>
-						<h2>Education</h2>
-						<p>I studied at UNAN - MANAGUA</p>
+						<h2>Educación</h2>
+						<p>Estudié en la UNAN - MANAGUA</p>
 						<div className={'education-elements'}>
 							<div className='education-image'>
 								<img src={unan} alt={'Logo unan'}/>
-								<h5>National Autonomus University of Nicaragua</h5>
-								<h4>Information systems engineer</h4>
+								<h5>Universidad Nacional Autónoma de Nicaragua</h5>
+								<h4>Ingeniería en sistemas de información</h4>
 							</div>
 							<div className='education-text'>
 								<div className={'lista'}>

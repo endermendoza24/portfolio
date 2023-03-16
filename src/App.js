@@ -11,6 +11,7 @@ import { Education } from "./components/Education";
 import { Courses } from "./components/Courses";
 import './App.css';
 import { Footer } from './components/Footer';
+import {Tools} from "./components/Tools";
 
 
 
@@ -19,8 +20,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-        {/*<Skills/>*/}
-      <MySkills />
+        <Skills/>
+      {/*<MySkills />*/}
       <Education />
       <Courses />
       <Projects />
