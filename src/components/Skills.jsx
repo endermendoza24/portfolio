@@ -1,81 +1,68 @@
 import React from "react";
-import {Col, Container, Row, Tab} from "react-bootstrap";
-import {SkillsCard} from "./SkillsCard";
+import { Col, Container, Row, Tab } from "react-bootstrap";
+import { SkillsCard } from "./SkillsCard";
 import softwareDevelopment from '../assets/img/software-development.png';
-import technicalSupport from '../assets/img/technical-support.png';
+import webDevelopment from "../assets/img/web-development-svgrepo-com.svg";
 import businessIntelligence from '../assets/img/business-intelligence.png';
-import wordpress from '../assets/img/wordpress.svg';
-import dotnet from '../assets/img/dot-net-core-7.svg';
-import git from "../assets/img/git.svg";
-import blazor from '../assets/img/blazor.svg';
-import {CourseCard} from "./CourseCard";
 
-export const Skills = () =>{
+
+
+import { CourseCard } from "./CourseCard";
+
+export const Skills = () => {
     // habilidades
     const mySkills = [
 
         {
-            title: ".Net Core",
-            description: "Como estudiante universitario, tengo algo de experiencia en desarrollo .NET Core y muchas ganas de aprender y mejorar.",
-            image: dotnet,
+            title: "Desarrollo de software",
+            description: "Desarrollo software con experiencia en lenguajes JavaScript y C#. Conocimientos en metodologías ágiles, " +
+                "bases de datos y diseño orientado a objetos. Capacidad de trabajo en equipo y resolución de problemas",
+            image: softwareDevelopment,
         },
         {
             title: "Blazor",
-            description:"Tengo experiencia a nivel principiante con Blazor, pero tengo muchas ganas de aprender y mostrar mis habilidades para demostrar mi capacidad y crecer profesionalmente",
-            image: blazor,
-        },
-        {
-            title: "Git & Github",
-            description: "Como profesional en la tecnología es fundamental poseer conocimientos en control de versiones, en este caso con GIT ",
-            image: git,
-        },
-        {
-            title: "Wordpress",
-            description: "He tenido la oportunidad de trabajar algunas veces en Wordpress",
-            image: wordpress,
-        },
-        {
-            title: "PowerBI",
-            description: "He utilizado PowerBI como herramienta de presentación de datos, fundamentalmente en la materia de inteligencia de negocios.",
+            description: "Inteligencia de Negocios con habilidades en análisis de datos, modelado y visualización. " +
+                "Conocimientos de herramientas como Power BI, Excel y SQL. " +
+                "Experiencia en la implementación de soluciones BI y la toma de decisiones empresariales basadas en datos.",
             image: businessIntelligence,
         },
         {
-            title: "Soporte técnico",
-            description: "Tengo experiencia en soporte técnico de software, reparación de errores, soporte a usuarios, " +
-                "instalación de sistemas operativos, instalación de softwares, etc.",
-            image: technicalSupport,
+            title: "Desarrollo web",
+            description: "Desarrollo web con habilidades en HTML, CSS y JavaScript." +
+                " Experiencia en la creación de sitios web responsivos y optimizados " +
+                "para motores de búsqueda. Capacidad para trabajar en equipo y adaptarse a cambios en el proyecto",
+            image: webDevelopment,
         },
-
     ];
     return (
         <section className="skill-bx" id="skills">
             <Container>
                 <Row>
-                   <Col size={12}>
-                       <div>
-                           <h2>Habilidades</h2>
-                           <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                               <Tab.Content>
-                                   <Tab.Pane eventKey="first">
-                                       <Row className='contenedor'>
-                                           {
-                                               mySkills.map((item, index) => {
-                                                   return (
-                                                       <div >
-                                                           <SkillsCard
-                                                               key={index}
-                                                               {...item}
-                                                           />
-                                                       </div>
-                                                   )
-                                               })
-                                           }
-                                       </Row>
-                                   </Tab.Pane>
-                               </Tab.Content>
-                           </Tab.Container>
-                       </div>
-                   </Col>
+                    <Col size={12}>
+                        <div>
+                            <h2>Habilidades</h2>
+                            <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                                <Tab.Content>
+                                    <Tab.Pane eventKey="first">
+                                        <Row className='contenedor'>
+                                            {
+                                                mySkills.map((item, index) => {
+                                                    return (
+                                                        <div >
+                                                            <SkillsCard
+                                                                key={index}
+                                                                {...item}
+                                                            />
+                                                        </div>
+                                                    )
+                                                })
+                                            }
+                                        </Row>
+                                    </Tab.Pane>
+                                </Tab.Content>
+                            </Tab.Container>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </section>

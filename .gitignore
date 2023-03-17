@@ -9,7 +9,7 @@
 /coverage
 /build
 .prettierrc
-.idea
+/idea
 
 # misc
  .DS_Store

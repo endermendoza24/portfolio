@@ -1,42 +1,58 @@
 import React from 'react';
-import {Col, Container, Row, Tab} from "react-bootstrap";
-import {ToolCard} from "./ToolCard";
-import github from "../assets/img/github-icon.svg";
-import git from "../assets/img/git.svg";
+import { Col, Container, Row, Tab } from "react-bootstrap";
+import { ToolCard } from "./ToolCard";
+import git from "../assets/img/technologies/git.svg";
+import github from "../assets/img/technologies/github-icon.svg";
+import dotnet from "../assets/img/technologies/dot-net-core-7.svg";
+import blazor from "../assets/img/technologies/blazor.svg";
+import powerBi from "../assets/img/technologies/power-bi-1.svg";
+import javascript from "../assets/img/technologies/logo-javascript.svg";
+import css from "../assets/img/technologies/css-3.svg";
+import html from "../assets/img/technologies/html-1.svg";
+import wordpress from "../assets/img/technologies/wordpress.svg";
 
-export const Tools = () =>{
+export const Tools = () => {
 	// arreglo con las habilidades
 	const myTools = [
 		{
-			image:github,
-			title:"Github"
+			image: git,
+			title: "Git"
 		},
 		{
-			image:git,
-			title:"Git"
+			image: github,
+			title: "Github"
 		},
 		{
-			image:github,
-			title:"Github"
+			image: dotnet,
+			title: ".NetCore"
 		},
 		{
-			image:git,
-			title:"Git"
+			image: javascript,
+			title: "Javascript"
 		},
 		{
-			image:github,
-			title:"Github"
+			image: css,
+			title: "CSS"
 		},
 		{
-			image:git,
-			title:"Git"
+			image: html,
+			title: "HTML"
 		},
 		{
-			image:github,
-			title:"Github"
+			image: blazor,
+			title: "Blazor"
 		},
+		{
+			image: powerBi,
+			title: "PowerBI"
+		},
+		{
+			image: wordpress,
+			title: "WordPress"
+		},
+
 	]
-	return(
+	return (
 		<section className="tools-box" id="tools">
 			<Container>
 				<Row>
@@ -46,19 +62,19 @@ export const Tools = () =>{
 							<Tab.Container id="tools-tab" defaultActiveKey="first">
 								<Tab.Content>
 									<Tab.Pane eventKey="first">
-										<Row className="tools-container">
-											{
-												myTools.map((item, index) => {
-													return (
-														<div >
+										<Row>
+											<div className='tools-container'>
+												{
+													myTools.map((item, index) => {
+														return (
 															<ToolCard
 																key={index}
 																{...item}
 															/>
-														</div>
-													)
-												})
-											}
+														)
+													})
+												}
+											</div>
 										</Row>
 									</Tab.Pane>
 								</Tab.Content>

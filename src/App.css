@@ -836,6 +836,107 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: center;
   align-items: center;
 }
+/*herramientas*/
+.tools-box{
+  text-align: center;
+}
+.tools-container{
+  margin: 0;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap: 25px;
+  place-items: center;
+}
+.tool-card{
+  border: red 1px solid;
+ width: 150px;
+ height: 150px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+overflow: hidden;
+}
+.tool-tarjeta > h4{
+  text-align: center;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tool-card img{
+  width: 100px;
+  height: 100px;
+}
+
+/* probando */
+
+.tool-imgbx {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #fff;
+  /* margin-bottom: 24px; */
+}
+.tool-imgbx img{
+  object-fit: cover;
+}
+
+.tool-imgbx::before {
+  content: "";
+  background: #000;
+  opacity: 0.85;
+  position: absolute;
+  width: 100px;
+  height: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.tool-imgbx:hover::before {
+  height: 150px;
+}
+
+.tool-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+
+.tool-imgbx:hover .tool-txtx {
+  top: 50%;
+  opacity: 1;
+}
+
+.tool-txtx h4 {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+
+.tool-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  padding: 10px;
+}
+
+
+
+
+
+
 @media (max-width: 575px) {
   .habilidades{
     grid-template-columns: repeat(1,1fr);
@@ -843,5 +944,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contenedor{
   display: flex;
 
+}
+.tools-container{
+  grid-template-columns: 1fr 1fr;
 }
 }

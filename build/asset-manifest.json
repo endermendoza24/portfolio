@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7f45437.css",
-    "main.js": "/static/js/main.08d6a3c7.js",
+    "main.css": "/static/css/main.069cf41c.css",
+    "main.js": "/static/js/main.355091f4.js",
     "static/js/787.4f684e42.chunk.js": "/static/js/787.4f684e42.chunk.js",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/diploma2.png": "/static/media/diploma2.f04a4768e8cb77d72cad.png",
@@ -24,23 +24,28 @@
     "static/media/nav-icon4.png": "/static/media/nav-icon4.a5527b5c02e754fc4a6d.png",
     "static/media/business-intelligence.png": "/static/media/business-intelligence.f8864dc507202c097c13.png",
     "static/media/contact.svg": "/static/media/contact.26466ccf1bd0987341374e6d09029f8c.svg",
-    "static/media/Sprinkle.svg": "/static/media/Sprinkle.db72b558f56d74f357f9.svg",
     "static/media/wordpress.svg": "/static/media/wordpress.558f4cc800dc43b4439289b217a67c89.svg",
+    "static/media/web-development-svgrepo-com.svg": "/static/media/web-development-svgrepo-com.7f8ca7de456919e477a4506b49aad784.svg",
     "static/media/logo.svg": "/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
-    "static/media/dot-net-core-7.svg": "/static/media/dot-net-core-7.97f78a4850d6a3bc4e99f4603d84643d.svg",
     "static/media/github-icon.svg": "/static/media/github-icon.e0d7d7254ac0545743fc7af09c1e977b.svg",
-    "static/media/blazor.svg": "/static/media/blazor.80bf5d470dd7029921e8dc567c31c249.svg",
+    "static/media/git.svg": "/static/media/git.9a295898f0d910a672095bfef91185d2.svg",
     "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "static/media/react-light.svg": "/static/media/react-light.bc261f62a66d6b79ddf5.svg",
-    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/blazor.svg": "/static/media/blazor.7c461405ef53e46485a83abb7686a6d4.svg",
+    "static/media/logo-javascript.svg": "/static/media/logo-javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/dot-net-core-7.svg": "/static/media/dot-net-core-7.b36a9e60deda6c9a11705e162497fb61.svg",
+    "static/media/power-bi-1.svg": "/static/media/power-bi-1.ae8b0be9c30b91bcdeca520c1d40b243.svg",
     "index.html": "/index.html",
+    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/css-3.svg": "/static/media/css-3.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html-1.svg": "/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.c7f45437.css.map": "/static/css/main.c7f45437.css.map",
-    "main.08d6a3c7.js.map": "/static/js/main.08d6a3c7.js.map",
+    "main.069cf41c.css.map": "/static/css/main.069cf41c.css.map",
+    "main.355091f4.js.map": "/static/js/main.355091f4.js.map",
     "787.4f684e42.chunk.js.map": "/static/js/787.4f684e42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7f45437.css",
-    "static/js/main.08d6a3c7.js"
+    "static/css/main.069cf41c.css",
+    "static/js/main.355091f4.js"
   ]
 }
